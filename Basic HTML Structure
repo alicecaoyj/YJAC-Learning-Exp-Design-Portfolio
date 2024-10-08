@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice Cao | Learning Designer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Add active tab highlight */
+        .active {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Alice Cao | Learning Designer Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#articulate" class="active">Articulate Courses</a>
+    <a href="#videos">Video Instructions</a>
+    <a href="#job-aids">Job Aids</a>
+    <a href="#resume">Request Resume</a>
+</nav>
+
+<div class="content" id="articulate">
+    <h2>Articulate Courses</h2>
+    <p>Here you'll find the Articulate courses I've created. Click the thumbnails below to explore more.</p>
+    <!-- Embed course previews or links here -->
+</div>
+
+<div class="content" id="videos">
+    <h2>Video Instructions</h2>
+    <p>Here are some video instructions I’ve developed to simplify complex concepts.</p>
+    <!-- Embed video links or players here -->
+</div>
+
+<div class="content" id="job-aids">
+    <h2>Job Aids from Canva</h2>
+    <p>Here you can view various job aids designed using Canva, aimed at reducing errors and increasing productivity.</p>
+    <!-- Embed images or links to the job aids -->
+</div>
+
+<div class="content" id="resume">
+    <h2>Request Resume</h2>
+    <p>If you'd like to request my resume, please fill out the form below:</p>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Request Resume">
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Alice Cao | Learning Designer</p>
+</footer>
+
+</body>
+</html>
